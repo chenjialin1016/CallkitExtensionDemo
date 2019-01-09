@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053EE71A21E59CC300B3C7E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053EE71921E59CC300B3C7E6 /* AppDelegate.swift */; };
+		053EE71C21E59CC300B3C7E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053EE71B21E59CC300B3C7E6 /* ViewController.swift */; };
+		053EE71F21E59CC300B3C7E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053EE71D21E59CC300B3C7E6 /* Main.storyboard */; };
+		053EE72121E59CC400B3C7E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053EE72021E59CC400B3C7E6 /* Assets.xcassets */; };
+		053EE72421E59CC400B3C7E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053EE72221E59CC400B3C7E6 /* LaunchScreen.storyboard */; };
+		053EE72F21E59CC400B3C7E6 /* CallkitExtensionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053EE72E21E59CC400B3C7E6 /* CallkitExtensionDemoTests.swift */; };
+		053EE73A21E59CC400B3C7E6 /* CallkitExtensionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053EE73921E59CC400B3C7E6 /* CallkitExtensionDemoUITests.swift */; };
+		053EE74E21E59DEB00B3C7E6 /* CallDirectoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053EE74D21E59DEB00B3C7E6 /* CallDirectoryHandler.swift */; };
+		053EE75221E59DEB00B3C7E6 /* Callkit_EX.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 053EE74B21E59DEB00B3C7E6 /* Callkit_EX.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		053EE72B21E59CC400B3C7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053EE70E21E59CC200B3C7E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053EE71521E59CC300B3C7E6;
+			remoteInfo = CallkitExtensionDemo;
+		};
+		053EE73621E59CC400B3C7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053EE70E21E59CC200B3C7E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053EE71521E59CC300B3C7E6;
+			remoteInfo = CallkitExtensionDemo;
+		};
+		053EE75021E59DEB00B3C7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053EE70E21E59CC200B3C7E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053EE74A21E59DEB00B3C7E6;
+			remoteInfo = Callkit_EX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		053EE75621E59DEB00B3C7E6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				053EE75221E59DEB00B3C7E6 /* Callkit_EX.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		053EE71621E59CC300B3C7E6 /* CallkitExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallkitExtensionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		053EE71921E59CC300B3C7E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		053EE71B21E59CC300B3C7E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		053EE71E21E59CC300B3C7E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		053EE72021E59CC400B3C7E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		053EE72321E59CC400B3C7E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		053EE72521E59CC400B3C7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053EE72A21E59CC400B3C7E6 /* CallkitExtensionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallkitExtensionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		053EE72E21E59CC400B3C7E6 /* CallkitExtensionDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallkitExtensionDemoTests.swift; sourceTree = "<group>"; };
+		053EE73021E59CC400B3C7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053EE73521E59CC400B3C7E6 /* CallkitExtensionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallkitExtensionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		053EE73921E59CC400B3C7E6 /* CallkitExtensionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallkitExtensionDemoUITests.swift; sourceTree = "<group>"; };
+		053EE73B21E59CC400B3C7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053EE74B21E59DEB00B3C7E6 /* Callkit_EX.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Callkit_EX.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		053EE74D21E59DEB00B3C7E6 /* CallDirectoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryHandler.swift; sourceTree = "<group>"; };
+		053EE74F21E59DEB00B3C7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053EE75721E59EEE00B3C7E6 /* Callkit_EX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Callkit_EX.entitlements; sourceTree = "<group>"; };
+		053EE75821E59FAD00B3C7E6 /* CallkitExtensionDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CallkitExtensionDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		053EE71321E59CC300B3C7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053EE72721E59CC400B3C7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053EE73221E59CC400B3C7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053EE74821E59DEB00B3C7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		053EE70D21E59CC200B3C7E6 = {
+			isa = PBXGroup;
+			children = (
+				053EE71821E59CC300B3C7E6 /* CallkitExtensionDemo */,
+				053EE72D21E59CC400B3C7E6 /* CallkitExtensionDemoTests */,
+				053EE73821E59CC400B3C7E6 /* CallkitExtensionDemoUITests */,
+				053EE74C21E59DEB00B3C7E6 /* Callkit_EX */,
+				053EE71721E59CC300B3C7E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		053EE71721E59CC300B3C7E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				053EE71621E59CC300B3C7E6 /* CallkitExtensionDemo.app */,
+				053EE72A21E59CC400B3C7E6 /* CallkitExtensionDemoTests.xctest */,
+				053EE73521E59CC400B3C7E6 /* CallkitExtensionDemoUITests.xctest */,
+				053EE74B21E59DEB00B3C7E6 /* Callkit_EX.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		053EE71821E59CC300B3C7E6 /* CallkitExtensionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				053EE75821E59FAD00B3C7E6 /* CallkitExtensionDemo.entitlements */,
+				053EE71921E59CC300B3C7E6 /* AppDelegate.swift */,
+				053EE71B21E59CC300B3C7E6 /* ViewController.swift */,
+				053EE71D21E59CC300B3C7E6 /* Main.storyboard */,
+				053EE72021E59CC400B3C7E6 /* Assets.xcassets */,
+				053EE72221E59CC400B3C7E6 /* LaunchScreen.storyboard */,
+				053EE72521E59CC400B3C7E6 /* Info.plist */,
+			);
+			path = CallkitExtensionDemo;
+			sourceTree = "<group>";
+		};
+		053EE72D21E59CC400B3C7E6 /* CallkitExtensionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				053EE72E21E59CC400B3C7E6 /* CallkitExtensionDemoTests.swift */,
+				053EE73021E59CC400B3C7E6 /* Info.plist */,
+			);
+			path = CallkitExtensionDemoTests;
+			sourceTree = "<group>";
+		};
+		053EE73821E59CC400B3C7E6 /* CallkitExtensionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				053EE73921E59CC400B3C7E6 /* CallkitExtensionDemoUITests.swift */,
+				053EE73B21E59CC400B3C7E6 /* Info.plist */,
+			);
+			path = CallkitExtensionDemoUITests;
+			sourceTree = "<group>";
+		};
+		053EE74C21E59DEB00B3C7E6 /* Callkit_EX */ = {
+			isa = PBXGroup;
+			children = (
+				053EE75721E59EEE00B3C7E6 /* Callkit_EX.entitlements */,
+				053EE74D21E59DEB00B3C7E6 /* CallDirectoryHandler.swift */,
+				053EE74F21E59DEB00B3C7E6 /* Info.plist */,
+			);
+			path = Callkit_EX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		053EE71521E59CC300B3C7E6 /* CallkitExtensionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053EE73E21E59CC400B3C7E6 /* Build configuration list for PBXNativeTarget "CallkitExtensionDemo" */;
+			buildPhases = (
+				053EE71221E59CC300B3C7E6 /* Sources */,
+				053EE71321E59CC300B3C7E6 /* Frameworks */,
+				053EE71421E59CC300B3C7E6 /* Resources */,
+				053EE75621E59DEB00B3C7E6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				053EE75121E59DEB00B3C7E6 /* PBXTargetDependency */,
+			);
+			name = CallkitExtensionDemo;
+			productName = CallkitExtensionDemo;
+			productReference = 053EE71621E59CC300B3C7E6 /* CallkitExtensionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		053EE72921E59CC400B3C7E6 /* CallkitExtensionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053EE74121E59CC400B3C7E6 /* Build configuration list for PBXNativeTarget "CallkitExtensionDemoTests" */;
+			buildPhases = (
+				053EE72621E59CC400B3C7E6 /* Sources */,
+				053EE72721E59CC400B3C7E6 /* Frameworks */,
+				053EE72821E59CC400B3C7E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				053EE72C21E59CC400B3C7E6 /* PBXTargetDependency */,
+			);
+			name = CallkitExtensionDemoTests;
+			productName = CallkitExtensionDemoTests;
+			productReference = 053EE72A21E59CC400B3C7E6 /* CallkitExtensionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		053EE73421E59CC400B3C7E6 /* CallkitExtensionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053EE74421E59CC400B3C7E6 /* Build configuration list for PBXNativeTarget "CallkitExtensionDemoUITests" */;
+			buildPhases = (
+				053EE73121E59CC400B3C7E6 /* Sources */,
+				053EE73221E59CC400B3C7E6 /* Frameworks */,
+				053EE73321E59CC400B3C7E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				053EE73721E59CC400B3C7E6 /* PBXTargetDependency */,
+			);
+			name = CallkitExtensionDemoUITests;
+			productName = CallkitExtensionDemoUITests;
+			productReference = 053EE73521E59CC400B3C7E6 /* CallkitExtensionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		053EE74A21E59DEB00B3C7E6 /* Callkit_EX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053EE75321E59DEB00B3C7E6 /* Build configuration list for PBXNativeTarget "Callkit_EX" */;
+			buildPhases = (
+				053EE74721E59DEB00B3C7E6 /* Sources */,
+				053EE74821E59DEB00B3C7E6 /* Frameworks */,
+				053EE74921E59DEB00B3C7E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Callkit_EX;
+			productName = Callkit_EX;
+			productReference = 053EE74B21E59DEB00B3C7E6 /* Callkit_EX.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		053EE70E21E59CC200B3C7E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CJL;
+				TargetAttributes = {
+					053EE71521E59CC300B3C7E6 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					053EE72921E59CC400B3C7E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 053EE71521E59CC300B3C7E6;
+					};
+					053EE73421E59CC400B3C7E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 053EE71521E59CC300B3C7E6;
+					};
+					053EE74A21E59DEB00B3C7E6 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 053EE71121E59CC200B3C7E6 /* Build configuration list for PBXProject "CallkitExtensionDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 053EE70D21E59CC200B3C7E6;
+			productRefGroup = 053EE71721E59CC300B3C7E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				053EE71521E59CC300B3C7E6 /* CallkitExtensionDemo */,
+				053EE72921E59CC400B3C7E6 /* CallkitExtensionDemoTests */,
+				053EE73421E59CC400B3C7E6 /* CallkitExtensionDemoUITests */,
+				053EE74A21E59DEB00B3C7E6 /* Callkit_EX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		053EE71421E59CC300B3C7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053EE72421E59CC400B3C7E6 /* LaunchScreen.storyboard in Resources */,
+				053EE72121E59CC400B3C7E6 /* Assets.xcassets in Resources */,
+				053EE71F21E59CC300B3C7E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053EE72821E59CC400B3C7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053EE73321E59CC400B3C7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053EE74921E59DEB00B3C7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		053EE71221E59CC300B3C7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053EE71C21E59CC300B3C7E6 /* ViewController.swift in Sources */,
+				053EE71A21E59CC300B3C7E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053EE72621E59CC400B3C7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053EE72F21E59CC400B3C7E6 /* CallkitExtensionDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053EE73121E59CC400B3C7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053EE73A21E59CC400B3C7E6 /* CallkitExtensionDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053EE74721E59DEB00B3C7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053EE74E21E59DEB00B3C7E6 /* CallDirectoryHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		053EE72C21E59CC400B3C7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053EE71521E59CC300B3C7E6 /* CallkitExtensionDemo */;
+			targetProxy = 053EE72B21E59CC400B3C7E6 /* PBXContainerItemProxy */;
+		};
+		053EE73721E59CC400B3C7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053EE71521E59CC300B3C7E6 /* CallkitExtensionDemo */;
+			targetProxy = 053EE73621E59CC400B3C7E6 /* PBXContainerItemProxy */;
+		};
+		053EE75121E59DEB00B3C7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053EE74A21E59DEB00B3C7E6 /* Callkit_EX */;
+			targetProxy = 053EE75021E59DEB00B3C7E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		053EE71D21E59CC300B3C7E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053EE71E21E59CC300B3C7E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		053EE72221E59CC400B3C7E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053EE72321E59CC400B3C7E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		053EE73C21E59CC400B3C7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		053EE73D21E59CC400B3C7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		053EE73F21E59CC400B3C7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CallkitExtensionDemo/CallkitExtensionDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EEC49VMBA9;
+				INFOPLIST_FILE = CallkitExtensionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjl.CallkitExtensionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		053EE74021E59CC400B3C7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CallkitExtensionDemo/CallkitExtensionDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EEC49VMBA9;
+				INFOPLIST_FILE = CallkitExtensionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjl.CallkitExtensionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		053EE74221E59CC400B3C7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CallkitExtensionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eb.CallkitExtensionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallkitExtensionDemo.app/CallkitExtensionDemo";
+			};
+			name = Debug;
+		};
+		053EE74321E59CC400B3C7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CallkitExtensionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eb.CallkitExtensionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallkitExtensionDemo.app/CallkitExtensionDemo";
+			};
+			name = Release;
+		};
+		053EE74521E59CC400B3C7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CallkitExtensionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eb.CallkitExtensionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CallkitExtensionDemo;
+			};
+			name = Debug;
+		};
+		053EE74621E59CC400B3C7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CallkitExtensionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eb.CallkitExtensionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CallkitExtensionDemo;
+			};
+			name = Release;
+		};
+		053EE75421E59DEB00B3C7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Callkit_EX/Callkit_EX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EEC49VMBA9;
+				INFOPLIST_FILE = Callkit_EX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cjl.CallkitExtensionDemo.Callkit-EX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		053EE75521E59DEB00B3C7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Callkit_EX/Callkit_EX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EEC49VMBA9;
+				INFOPLIST_FILE = Callkit_EX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cjl.CallkitExtensionDemo.Callkit-EX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		053EE71121E59CC200B3C7E6 /* Build configuration list for PBXProject "CallkitExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053EE73C21E59CC400B3C7E6 /* Debug */,
+				053EE73D21E59CC400B3C7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053EE73E21E59CC400B3C7E6 /* Build configuration list for PBXNativeTarget "CallkitExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053EE73F21E59CC400B3C7E6 /* Debug */,
+				053EE74021E59CC400B3C7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053EE74121E59CC400B3C7E6 /* Build configuration list for PBXNativeTarget "CallkitExtensionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053EE74221E59CC400B3C7E6 /* Debug */,
+				053EE74321E59CC400B3C7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053EE74421E59CC400B3C7E6 /* Build configuration list for PBXNativeTarget "CallkitExtensionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053EE74521E59CC400B3C7E6 /* Debug */,
+				053EE74621E59CC400B3C7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053EE75321E59DEB00B3C7E6 /* Build configuration list for PBXNativeTarget "Callkit_EX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053EE75421E59DEB00B3C7E6 /* Debug */,
+				053EE75521E59DEB00B3C7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 053EE70E21E59CC200B3C7E6 /* Project object */;
+}
